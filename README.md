@@ -17,25 +17,27 @@ Documentación pública de la API: <https://conectta.me/desarrolladores>.
 Dentro de Claude Code:
 
 ```
-/plugin marketplace add rcmsoluciones01/conectta-claude
+/plugin marketplace add https://github.com/rcmsoluciones01/conectta-claude.git
 /plugin install conectta@conectta-claude
 ```
 
 O desde la terminal:
 
 ```bash
-claude plugin marketplace add rcmsoluciones01/conectta-claude
+claude plugin marketplace add https://github.com/rcmsoluciones01/conectta-claude.git
 ```
 
 ```bash
 claude plugin install conectta@conectta-claude
 ```
 
+Si tienes una llave SSH configurada en GitHub, también sirve la forma corta `rcmsoluciones01/conectta-claude`: clona por SSH y sin llave falla con «Permission denied (publickey)».
+
 Para traer una versión nueva: `/plugin` → pestaña de marketplaces → `conectta-claude` → actualizar (o activar la actualización automática ahí mismo), y luego `/reload-plugins`.
 
 ### En claude.ai (archivo .zip)
 
-1. Descarga [`dist/conectar-con-conectta.zip`](dist/conectar-con-conectta.zip). No lo descomprimas.
+1. Descarga [`conectar-con-conectta.zip`](https://github.com/rcmsoluciones01/conectta-claude/raw/main/dist/conectar-con-conectta.zip). No lo descomprimas.
 2. En claude.ai, activa la ejecución de código: **Configuración → Capacidades → Ejecución de código y creación de archivos**.
 3. Sube el .zip en la sección **Skills** (según la versión de la app está en **Personalizar → Skills → «+» → Subir una skill** o en **Configuración → Capacidades**).
 
