@@ -79,6 +79,10 @@ plugins/conectta/skills/conectar-con-conectta/
 
 El código `cnx_`, la clave y el secreto son de tu cliente: guárdalos como contraseñas (variables de entorno o un almacén cifrado), nunca en el repositorio ni en el navegador. Este repositorio no contiene ninguna clave real; todos los valores de los ejemplos son inventados.
 
+## Licencia
+
+[MIT](LICENSE): puedes usar, copiar y modificar este código, también en productos comerciales, siempre que conserves el aviso de copyright.
+
 ## Para quien mantiene este repositorio
 
 - Validar: `claude plugin validate .` y `claude plugin validate ./plugins/conectta`.

@@ -1,6 +1,7 @@
 ---
 name: conectar-con-conectta
 description: "Conecta cualquier herramienta (tienda, POS, CRM, ERP) con Conectta: código cnx_, WhatsApp y pedidos con su clave, y avisos (webhooks) firmados. Incluye el caso Luja."
+license: MIT
 ---
 
 # Conectar una herramienta con Conectta
