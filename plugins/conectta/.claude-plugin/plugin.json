@@ -1,0 +1,12 @@
+{
+  "name": "conectta",
+  "version": "1.0.0",
+  "description": "Guía y código para conectar cualquier herramienta (tienda, POS, CRM, ERP) con Conectta: WhatsApp, pedidos y avisos firmados.",
+  "author": {
+    "name": "Conectta",
+    "url": "https://conectta.me/desarrolladores"
+  },
+  "homepage": "https://conectta.me/desarrolladores",
+  "repository": "https://github.com/rcmsoluciones01/conectta-claude",
+  "keywords": ["conectta", "whatsapp", "webhooks", "integracion", "luja"]
+}

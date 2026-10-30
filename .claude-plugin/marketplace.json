@@ -1,0 +1,17 @@
+{
+  "name": "conectta-claude",
+  "metadata": {
+    "description": "Skills de Conectta para Claude: conecta tu herramienta con Conectta."
+  },
+  "owner": {
+    "name": "Conectta",
+    "url": "https://conectta.me/desarrolladores"
+  },
+  "plugins": [
+    {
+      "name": "conectta",
+      "source": "./plugins/conectta",
+      "description": "Guía y código para conectar cualquier herramienta (tienda, POS, CRM, ERP) con Conectta: WhatsApp, pedidos y avisos firmados."
+    }
+  ]
+}
